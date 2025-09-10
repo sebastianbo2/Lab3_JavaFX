@@ -24,11 +24,12 @@ public class Lab3 extends Application {
         launch(args);
     }
     
+    @Override
     public void start(Stage stage) {
-        stage.setTitle("Lab3_ImageGenerator");
+        stage.setTitle("Java Games");
         
         Label topLabel = new Label("Random Game");
-        Label bottomLabel = new Label("Waiting");
+        Label bottomLabel = new Label("Waiting...");
         
         Label leftPlaceholder = new Label("LEFT");
         Label rightPlaceholder = new Label("RIGHT");
